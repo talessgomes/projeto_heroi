@@ -1,9 +1,20 @@
 import React from "react";
-
+import {PersonagensContainer, PersonaPage} from "./styled"
 export const Personagens = () => {
     return (
-        <div>
-            Personagens
-        </div>
+        <PersonaPage>
+            <PersonagensContainer>
+
+            </PersonagensContainer>
+            <PersonagensContainer>
+                
+            </PersonagensContainer>
+            <PersonagensContainer>
+                
+            </PersonagensContainer>
+            <PersonagensContainer>
+                
+            </PersonagensContainer>
+        </PersonaPage>
     )
 }
