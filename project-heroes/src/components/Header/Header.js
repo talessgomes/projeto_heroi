@@ -1,9 +1,13 @@
 import React from "react";
+import {HeaderContainer} from "./styled"
 
 export const Header = () => {
     return (
-        <div>
-            header
-        </div>
+        <HeaderContainer>
+            <input
+            placeholder="Nome do Personagem"
+            />
+            <button>Buscar</button>
+        </HeaderContainer>
     )
 }
